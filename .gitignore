@@ -1,0 +1,14 @@
+﻿.sfdx/
+.sf/
+.vscode/
+node_modules/
+**/.eslintrc.json
+**/jsconfig.json
+*.log
+.localdevserver/
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/

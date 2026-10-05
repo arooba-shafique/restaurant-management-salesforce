@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Payment_Method__c</fullName>
+    <label>Payment Method</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Cash</fullName>
+                <default>false</default>
+                <label>Cash</label>
+            </value>
+            <value>
+                <fullName>Card</fullName>
+                <default>false</default>
+                <label>Card</label>
+            </value>
+            <value>
+                <fullName>JazzCash</fullName>
+                <default>false</default>
+                <label>JazzCash</label>
+            </value>
+            <value>
+                <fullName>Easypaisa</fullName>
+                <default>false</default>
+                <label>Easypaisa</label>
+            </value>
+            <value>
+                <fullName>Bank Transfer</fullName>
+                <default>false</default>
+                <label>Bank Transfer</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
